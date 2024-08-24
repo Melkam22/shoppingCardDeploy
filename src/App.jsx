@@ -22,7 +22,7 @@ function App() {
       <div>
         <Heading cart={cart}/>
         <div className='body'>
-          <h2>Shopping Card with Route using React-Vite</h2>
+          <h2 className='main-title'>Shopping Cart with Route using React-Vite</h2>
           <Routes>
             <Route path="/" element={<Shop cart={cart} setCart={setCart} />} />
             <Route path="/shopping-card" element={<ShoppingCard cart={cart} setCart={setCart} removeFromCart={removeFromCart} />} />
