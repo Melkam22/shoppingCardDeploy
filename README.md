@@ -1,8 +1,7 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+It is a shopping cart with React and Vite. You can see the code in [GitHub](https://github.com/Melkam22/shoppingCardReactDeploy). 
 
-Currently, two official plugins are available:
+What it has is a in-built json database where I put all the data and fetch it from there to display it on my page. One can select product and add it to his/her basket and he/she will be notified howmany items selected. The program has CRUD functionality. I used React Router to navigate from one page to another. I used useNavigate and Link from React-Router-Dom interchangably. I tried to apply decouplying as much as I can, each functionality is separated and put in it's own component/page. Next step, I want to improve the deployment; it shows empty page unitl we cliced on the logo it shows no product. Besides, it has very minimalist design, so, it is to be improved as well in the future. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Run the command 'npm run dev' to start. 
