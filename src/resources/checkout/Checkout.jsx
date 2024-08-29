@@ -23,12 +23,12 @@ function Checkout({cart, setCart}) {
         {cart.map((item) => (
         <div className='checkoutItem' key={item.id}>
           <span> {item.description}</span>
-          <span> {item.price}</span>
+          <span> {item.price}€</span>
           {/* <button className='removeBtn' onClick={()=> removeFromCart(item.id)}>Remove</button> */}
         </div>
         
       ))}
-       <span style={{fontWeight: 'bold', color: 'green'}}><span>Total:</span> {cart.reduce((item, accum)=> item + accum.price, 0)}</span><br /> <br />
+       <span style={{fontWeight: 'bold', color: 'green'}}><span>Total:</span> {cart.reduce((item, accum)=> item + accum.price, 0)}€</span><br /> <br />
       <button className='payBtn' onClick={handlePay}>Pay</button>
     </div>
   )

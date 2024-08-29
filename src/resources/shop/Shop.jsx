@@ -1,5 +1,5 @@
 import './Shop.css'
-import { useState } from 'react'
+import { useState} from 'react'
 import Products from '../database/Data.json'
 import Cards from '../cards/Cards'
 
@@ -7,6 +7,7 @@ import Cards from '../cards/Cards'
 
 function Shop({cart, setCart}) {
     const [products] = useState(Products.products)
+  
     //const [cart, setCart] = useState([])//importing from App.jsx inseted of doing it here ...
     //console.log(products)
 
@@ -19,7 +20,7 @@ function Shop({cart, setCart}) {
 
   return (
     <div>
-        <Cards products={products} addToCart={addToCart}/>
+        <Cards products={products} addToCart={addToCart} />
     </div>
   )
 }

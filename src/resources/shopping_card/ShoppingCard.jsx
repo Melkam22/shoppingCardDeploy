@@ -17,7 +17,7 @@ function ShoppingCard({cart, setCart, removeFromCart}) {
     ) : ( cart.map((item)=> (
       <div className='card' key={item.id}>
         <span>{item.description}</span>
-        <span>{item.price}</span>
+        <span>{item.price}€</span>
         <button className='removeBtn' onClick={() => removeFromCart(item)}>Remove</button>
       </div>
     ))
