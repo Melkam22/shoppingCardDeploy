@@ -18,7 +18,7 @@ function App() {
   }
 
   return (
-    <Router>
+    <Router basename='/shoppingCardDeploy'>
       <div>
         <Heading cart={cart}/>
         <div className='body'>

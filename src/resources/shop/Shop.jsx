@@ -1,16 +1,20 @@
 import './Shop.css'
-import { useState} from 'react'
-import Products from '../database/Data.json'
+import {useEffect, useState} from 'react'
+import Products from '../../database/Data.json'
 import Cards from '../cards/Cards'
 
  
 
 function Shop({cart, setCart}) {
-    const [products] = useState(Products.products)
+    // const [products] = useState(Products.products)
+    const [products, setProducts] = useState([]);
+    const [loading, setLoading] = useState(true);
   
-    //const [cart, setCart] = useState([])//importing from App.jsx inseted of doing it here ...
-    //console.log(products)
-
+    useEffect(()=>{
+      setProducts(Products.products);
+      setLoading(false);
+    },[])
+console.log(Products)
     //add to cart
     const addToCart = (clickedItem)=>{
       setCart([...cart, clickedItem])
@@ -20,7 +24,7 @@ function Shop({cart, setCart}) {
 
   return (
     <div>
-        <Cards products={products} addToCart={addToCart} />
+       {loading ? <h1>Products are Loading...</h1> : <Cards products={products} addToCart={addToCart} />} 
     </div>
   )
 }

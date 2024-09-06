@@ -6,6 +6,7 @@ function Card({product, addToCart}) {
 
 return (   
 <div >
+
  <ul className='shoppingCard' key={product.id}>
             <li>{product.description}</li> 
              <li>{product.price}€</li>  
@@ -16,6 +17,7 @@ return (
               <img src={product.imgUrl} alt={product.id} width="130px"/>
               <button className='addBtn' onClick={() => addToCart(product)}>Add to cart</button>
               </ul>
+
  </div>
 )
 }

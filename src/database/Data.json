@@ -1,0 +1,95 @@
+{ "products" : [
+
+    {
+        "id": 1,
+        "color": "red with orange dotts",
+        "price": 25,
+        "size": "xl",
+        "material": "cotton",
+        "description": "T-Shirt",
+        "longDesc": "A nice t-shirt",
+        "imgUrl": "/t-shirt.jpg",
+        "sale": false
+      },
+      
+       {
+        "id": 2,
+        "color": "blue",
+        "price": 5,
+        "size": "39",
+        "material": "nylon",
+        "description": "Socks",
+        "longDesc": "Funny socks",
+        "imgUrl": "/socks.jpg",
+        "sale": true
+      },
+      
+      {
+        "id": 3,
+        "color": "green",
+        "price": 50,
+        "size":  "L",
+        "material": "polyester",  
+        "description":  "shorts",
+        "longDesc": "modern for the summer",
+        "imgUrl":  "/shorts.jpg",
+        "sale": true
+      },
+      {
+        "id": 4,
+        "color": "silver with design",
+        "price": 70,
+        "size": "41",
+        "material": "cotton",
+        "description": "hoody",
+        "longDesc": "very comfortable & fancy hoody",
+        "imgUrl": "/hoodies.jpg",
+        "sale": true
+      },
+      {
+        "id": 5,
+        "color": "sky blue",
+        "price": 25,
+        "size": "x",
+        "material": "cotton",
+        "description": "Shirt",
+        "longDesc": "formal shirt",
+        "imgUrl": "/t-shirt.jpg",
+        "sale": false
+      },
+      
+       {
+        "id": 6,
+        "color": "black",
+        "price": 50,
+        "size": "m",
+        "material": "leather",
+        "description": "jacket",
+        "longDesc": "Fancy jacket",
+        "imgUrl": "/socks.jpg",
+        "sale": true
+      },
+      {
+        "id": 7,
+        "color": "white",
+        "price": 20,
+        "size":  "L",
+        "material": "polyester",  
+        "description":  "skirt",
+        "longDesc": "modern for the summer",
+        "imgUrl":  "/shorts.jpg",
+        "sale": true
+      },
+      {
+        "id": 8,
+        "color": "greyish with design",
+        "price": 15,
+        "size": "41",
+        "material": "nilon",
+        "description": "cap",
+        "longDesc": "all weather nice cap",
+        "imgUrl": "/hoodies.jpg",
+        "sale": true
+      }
+]
+}

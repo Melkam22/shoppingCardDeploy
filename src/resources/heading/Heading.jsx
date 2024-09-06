@@ -1,7 +1,6 @@
 import './Heading.css'
 import {Link} from 'react-router-dom'
-import BasketGreen from '../../../public/basketGreen.png'
-//import BasketRed from '../../../public/basketRed.png'
+import BasketGreen from '/basketGreen.png'
 
 function Heading({cart}) {
   
