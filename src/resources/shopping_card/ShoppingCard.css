@@ -7,7 +7,7 @@ align-items: center;
 }
 
 .shoppingCard{
-    width: 200px;
+    width: 250px;
     min-height: 290px;
     background-color: rgba(23,4,56, .5);
     display: flex;

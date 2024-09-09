@@ -1,6 +1,7 @@
 import './Heading.css'
 import {Link} from 'react-router-dom'
 import BasketGreen from '/basketGreen.png'
+import myIcon from '/eComerceIcon.png'
 
 function Heading({cart}) {
   
@@ -11,7 +12,7 @@ console.log('heading', cart);
 
   return (
     <div className='heading'>
-      <Link to="/"><h1>logo</h1></Link> 
+      <Link to="/"><img className='logo' src={myIcon} alt="hands embracing heart" /></Link> 
       <Link to='/shopping-card'>
       <img className='basket' src={BasketGreen} alt="basket" /> 
        {/* Display cart item count if there are items in the cart */}
