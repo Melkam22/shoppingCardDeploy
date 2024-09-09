@@ -12,7 +12,7 @@ function Checkout({cart, setCart}) {
       }
     //
     const handlePay = () => {
-        alert('Thank you for your purchase!');
+        alert('Thank you for your purchase! It will be connected to Stripe payment system soon!');
         setCart([]);
         navigate('/shopping-card'); 
     }

@@ -17,7 +17,7 @@ function Shop({cart, setCart, filteredItem}) {
     console.log(Products)
 
     //
-    const filterProduct = products.filter((product)=> product.description.includes(filteredItem)) //fitlter products function
+    const filterProduct = products.filter((product)=> product.description.toLowerCase().includes(filteredItem.toLowerCase())) //fitlter products function
     //console.log(filterProduct);
 
     //add to cart
