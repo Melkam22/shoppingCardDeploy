@@ -5,3 +5,21 @@
 .main-title{
     text-align: center;
 }
+
+#filter_form{
+    text-align: center;
+}
+#filter_form button{
+    padding: 5px 10px 5px 10px;
+    margin-left: 5px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 16px;
+}
+#filter_form input{
+    padding: 5px 10px 5px 10px;
+    margin-left: 5px;
+    border-radius: 10px;
+    font-size: 16px;
+}
