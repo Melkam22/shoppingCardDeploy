@@ -1,5 +1,5 @@
 import './Card.css'
-
+import {Link} from 'react-router-dom'
  
 
 function Card({product, addToCart}) {
@@ -15,6 +15,7 @@ return (
              <li>{product.description}</li> 
              <li>{product.longDesc}</li> 
               <img src={product.imgUrl} alt={product.id} width="130px"/>
+              <Link to={product.productUrl}>Detail...</Link>
               <button className='addBtn' onClick={() => addToCart(product)}>Add to cart</button>
               </ul>
 

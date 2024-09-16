@@ -9,7 +9,8 @@
         "description": "T-Shirt",
         "longDesc": "A nice t-shirt",
         "imgUrl": "/t-shirt.jpg",
-        "sale": false
+        "sale": false,
+        "productUrl": "/product/1"
       },
       
        {
@@ -21,7 +22,8 @@
         "description": "Socks",
         "longDesc": "Funny socks",
         "imgUrl": "/socks.jpg",
-        "sale": true
+        "sale": true,
+        "productUrl": "/product/2"
       },
       
       {
@@ -33,7 +35,8 @@
         "description":  "shorts",
         "longDesc": "modern for the summer",
         "imgUrl":  "/shorts.jpg",
-        "sale": true
+        "sale": true,
+        "productUrl": "/product/3"
       },
       {
         "id": 4,
@@ -44,7 +47,8 @@
         "description": "hoody",
         "longDesc": "very comfortable & fancy hoody",
         "imgUrl": "/hoodies.jpg",
-        "sale": true
+        "sale": true,
+        "productUrl": "/product/4"
       },
       {
         "id": 5,
@@ -55,7 +59,8 @@
         "description": "Shirt",
         "longDesc": "formal shirt",
         "imgUrl": "/t-shirt.jpg",
-        "sale": false
+        "sale": false,
+        "productUrl": "/product/5"
       },
       
        {
@@ -67,7 +72,8 @@
         "description": "jacket",
         "longDesc": "Fancy jacket",
         "imgUrl": "/socks.jpg",
-        "sale": true
+        "sale": true,
+        "productUrl": "/product/6"
       },
       {
         "id": 7,
@@ -78,7 +84,8 @@
         "description":  "skirt",
         "longDesc": "modern for the summer",
         "imgUrl":  "/shorts.jpg",
-        "sale": true
+        "sale": true,
+        "productUrl": "/product/7"
       },
       {
         "id": 8,
@@ -87,9 +94,10 @@
         "size": "41",
         "material": "nilon",
         "description": "cap",
-        "longDesc": "all weather nice cap",
+        "longDesc": "all weather nice cap ",
         "imgUrl": "/hoodies.jpg",
-        "sale": true
+        "sale": true,
+        "productUrl": "/product/8"
       }
 ]
 }
