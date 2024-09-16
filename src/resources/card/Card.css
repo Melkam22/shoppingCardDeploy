@@ -21,10 +21,30 @@
         border: 1px dashed white;
     }
     .addBtn{
-        background-color: greenyellow;
-        border: none;
-        color: black;
-        padding: 4px 4px 4px 4px;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        padding: 10px 10px 10px 10px;
         border-radius: 4px;
-        cursor: pointer;
+        transition: 0.5s;
+        border: 1px solid greenyellow;
+        width: 150px;
+        background-color: transparent;
+    }
+    .addBtn:hover{
+        color: silver;
+        border: 2px solid greenyellow;
+        transition: 0.5s;
+    }
+
+    .detailBtn{
+        color: white;
+        text-decoration: none;
+    }
+    .detailBtn:hover{
+        color: silver;
     }

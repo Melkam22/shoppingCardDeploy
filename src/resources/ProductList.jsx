@@ -3,8 +3,8 @@ import Card from './Card';
 import productsData from '../database/Data.json';
 
 function ProductList() {
-  const addToCart = (product) => {
-    console.log(`${product.description} added to cart!`);
+  const addToCart = () => {
+    //console.log(`${product.description} added to cart!`);
   };
 
   return (

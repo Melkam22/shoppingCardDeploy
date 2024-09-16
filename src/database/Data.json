@@ -45,7 +45,7 @@
         "size": "41",
         "material": "cotton",
         "description": "hoody",
-        "longDesc": "very comfortable & fancy hoody",
+        "longDesc": "very comfortable & fancy hoodies",
         "imgUrl": "/hoodies.jpg",
         "sale": true,
         "productUrl": "/product/4"
@@ -91,10 +91,10 @@
         "id": 8,
         "color": "greyish with design",
         "price": 15,
-        "size": "41",
-        "material": "nilon",
+        "size": "58",
+        "material": "polyester",
         "description": "cap",
-        "longDesc": "all weather nice cap ",
+        "longDesc": "all weather stylish caps",
         "imgUrl": "/hoodies.jpg",
         "sale": true,
         "productUrl": "/product/8"

@@ -2,11 +2,19 @@
 function Product8() {
 
     return (   
-    <div >
+        <div className='detail'>
+        <h1>Caps Details</h1>
         <ul>
-            <li>this is going to be the detailed product description for Cap</li>
+          <li>Color: Black, Red, Green</li>
+          <li>Size: M, L</li>
+          <li>Material: Plastic/Polyester</li>
+          <li>Description: fancy and all weather stylish caps</li>
+          <li>this is going to be the detailed product description for Caps</li>
+          <li>Price: 15€</li>
         </ul>
-    </div>
+
+        <a className='backBtn' href="/">back</a>
+      </div>
     )
     }
     

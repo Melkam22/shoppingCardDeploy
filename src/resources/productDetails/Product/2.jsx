@@ -2,18 +2,21 @@
 function Product2() {
 
     return (   
-    <div >
-        <ul>
-            <li>this is going to be the detailed product description for Socks</li>
-        </ul>
-    </div>
 
-// "id": 2,
-// "color": "blue",
-// "price": 5,
-// "size": "39",
-// "material": "nylon",
-// "description": "Socks",
+        <div className='detail'>
+        <h1>Socks Details</h1>
+        <ul>
+          <li>Color: Red with Orange Dots</li>
+          <li>Size: 39 - 44</li>
+          <li>Material: Nylon</li>
+          <li>Description: compfortable socks</li>
+          <li>this is going to be the detailed product description for Socks</li>
+          <li>Price: 5€</li>
+        </ul>
+
+        <a className='backBtn' href="/">back</a>
+      </div>
+    
     )
     }
     
