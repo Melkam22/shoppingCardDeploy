@@ -6,9 +6,9 @@ function Cards({products, addToCart}) {
 
     return (   
         <div className='shoppingCardFrame'>
-         {products.map((product)=> {return(
-            <Card product={product} addToCart={addToCart} />
-        )}
+         {products.map((product)=> (
+            <Card key={product.id} product={product} addToCart={addToCart} />
+        )
          
         )}
          </div>

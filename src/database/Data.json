@@ -8,7 +8,7 @@
         "material": "cotton",
         "description": "T-Shirt",
         "longDesc": "A nice t-shirt",
-        "imgUrl": "/t-shirt.jpg",
+        "imgUrl": "assets/images/t-shirt.jpg",
         "sale": false,
         "productUrl": "/product/1"
       },
@@ -21,7 +21,7 @@
         "material": "nylon",
         "description": "Socks",
         "longDesc": "Funny socks",
-        "imgUrl": "/socks.jpg",
+        "imgUrl": "/assets/images/socks.jpg",
         "sale": true,
         "productUrl": "/product/2"
       },
@@ -34,7 +34,7 @@
         "material": "polyester",  
         "description":  "shorts",
         "longDesc": "modern for the summer",
-        "imgUrl":  "/shorts.jpg",
+        "imgUrl":  "/assets/images/shorts.jpg",
         "sale": true,
         "productUrl": "/product/3"
       },
@@ -46,7 +46,7 @@
         "material": "cotton",
         "description": "hoody",
         "longDesc": "very comfortable & fancy hoodies",
-        "imgUrl": "/hoodies.jpg",
+        "imgUrl": "/assets/images/hoodies.jpg",
         "sale": true,
         "productUrl": "/product/4"
       },
@@ -58,7 +58,7 @@
         "material": "cotton",
         "description": "Shirt",
         "longDesc": "formal shirt",
-        "imgUrl": "/t-shirt.jpg",
+        "imgUrl": "/assets/images/t-shirt.jpg",
         "sale": false,
         "productUrl": "/product/5"
       },
@@ -71,7 +71,7 @@
         "material": "leather",
         "description": "jacket",
         "longDesc": "Fancy jacket",
-        "imgUrl": "/socks.jpg",
+        "imgUrl": "/assets/images/socks.jpg",
         "sale": true,
         "productUrl": "/product/6"
       },
@@ -83,7 +83,7 @@
         "material": "polyester",  
         "description":  "skirt",
         "longDesc": "modern for the summer",
-        "imgUrl":  "/shorts.jpg",
+        "imgUrl":  "/assets/images/shorts.jpg",
         "sale": true,
         "productUrl": "/product/7"
       },
@@ -95,7 +95,7 @@
         "material": "polyester",
         "description": "cap",
         "longDesc": "all weather stylish caps",
-        "imgUrl": "/hoodies.jpg",
+        "imgUrl": "/assets/images/hoodies.jpg",
         "sale": true,
         "productUrl": "/product/8"
       }
