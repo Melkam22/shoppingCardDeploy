@@ -21,7 +21,7 @@
         "material": "nylon",
         "description": "Socks",
         "longDesc": "Funny socks",
-        "imgUrl": "/assets/images/socks.jpg",
+        "imgUrl": "assets/images/socks.jpg",
         "sale": true,
         "productUrl": "/product/2"
       },
@@ -34,7 +34,7 @@
         "material": "polyester",  
         "description":  "shorts",
         "longDesc": "modern for the summer",
-        "imgUrl":  "/assets/images/shorts.jpg",
+        "imgUrl":  "assets/images/shorts.jpg",
         "sale": true,
         "productUrl": "/product/3"
       },
@@ -46,7 +46,7 @@
         "material": "cotton",
         "description": "hoody",
         "longDesc": "very comfortable & fancy hoodies",
-        "imgUrl": "/assets/images/hoodies.jpg",
+        "imgUrl": "assets/images/hoodies.jpg",
         "sale": true,
         "productUrl": "/product/4"
       },
@@ -58,7 +58,7 @@
         "material": "cotton",
         "description": "Shirt",
         "longDesc": "formal shirt",
-        "imgUrl": "/assets/images/t-shirt.jpg",
+        "imgUrl": "assets/images/shirt.jpg",
         "sale": false,
         "productUrl": "/product/5"
       },
@@ -71,7 +71,7 @@
         "material": "leather",
         "description": "jacket",
         "longDesc": "Fancy jacket",
-        "imgUrl": "/assets/images/socks.jpg",
+        "imgUrl": "assets/images/jacket.jpg",
         "sale": true,
         "productUrl": "/product/6"
       },
@@ -83,7 +83,7 @@
         "material": "polyester",  
         "description":  "skirt",
         "longDesc": "modern for the summer",
-        "imgUrl":  "/assets/images/shorts.jpg",
+        "imgUrl":  "assets/images/skirt.jpg",
         "sale": true,
         "productUrl": "/product/7"
       },
@@ -95,7 +95,7 @@
         "material": "polyester",
         "description": "cap",
         "longDesc": "all weather stylish caps",
-        "imgUrl": "/assets/images/hoodies.jpg",
+        "imgUrl": "assets/images/cap_black.jpg",
         "sale": true,
         "productUrl": "/product/8"
       }
