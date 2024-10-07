@@ -1,5 +1,6 @@
 import './detailStyle.css'
 
+
 function Product1() {
 
 return (   
