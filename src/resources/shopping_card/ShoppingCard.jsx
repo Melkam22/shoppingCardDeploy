@@ -13,11 +13,12 @@ function ShoppingCard({cart, setCart, removeFromCart}) {
   return (
    <div className='cardFrame'>
     {cart.length === 0 ? (
-      <h1>Your cart is empty <span onClick={()=> navigate('/')} style={{color: 'blue', cursor: 'pointer'}}>Shop Now</span></h1>// 
+      <h1>Your cart is empty  <span onClick={()=> navigate('/')} style={{color: 'blue', cursor: 'pointer'}}>Shop Now</span></h1>// 
     ) : ( cart.map((item)=> (
       <div className='card' key={item.id}>
         <span>{item.description}</span>
         <span>{item.price}€</span>
+        <img src={item.imgUrl} alt={item.description} width="110px"/>
         <button className='removeBtn' onClick={() => removeFromCart(item)}>Remove</button>
       </div>
     ))

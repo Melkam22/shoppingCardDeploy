@@ -14,7 +14,7 @@ return (
               <li>{product.material}</li> 
              <li>{product.description}</li> 
              <li>{product.longDesc}</li> 
-              <img src={product.imgUrl} alt={product.description} width="130px"/>
+              <img src={product.imgUrl} alt={product.description} width="150px"/>
               <Link className='detailBtn' to={product.productUrl}>Detail...</Link>
               <button className='addBtn' onClick={() => addToCart(product)}>Add to cart</button>
               </ul>

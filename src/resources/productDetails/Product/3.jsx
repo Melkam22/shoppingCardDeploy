@@ -6,6 +6,7 @@ function Product3() {
         <div className='detail'>
         <h1>Shorts Details</h1>
         <ul>
+        <img src="../assets/images/shorts.jpg" alt="shorts" style={{width:"250px", height:"220px"}}/>
           <li>Color: Red, Blue, Green, Black</li>
           <li>Size: M, L</li>
           <li>Material: Polyester</li>

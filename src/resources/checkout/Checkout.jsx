@@ -24,7 +24,7 @@ function Checkout({cart, setCart}) {
         <div className='checkoutItem' key={item.id}>
           <span> {item.description}</span>
           <span> {item.price}€</span>
-          {/* <button className='removeBtn' onClick={()=> removeFromCart(item.id)}>Remove</button> */}
+          <img src={item.imgUrl} alt={item.description} width="110px"/>
         </div>
         
       ))}

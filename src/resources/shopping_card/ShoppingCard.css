@@ -23,7 +23,7 @@ span{
     margin-left: 10px;
     margin-right: 10px;
 }
-.removeBtn{
+.card .removeBtn{
     background-color: red;
     border: none;
     color: white;
@@ -38,7 +38,14 @@ span{
 }
 
 .card{
+    display: flex;
+    width: 50%;
     margin-top: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+.card img{
+    height: 80px;
 }
 .checkoutBtn{
     width: 150px;

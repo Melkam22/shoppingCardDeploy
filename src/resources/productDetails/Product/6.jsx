@@ -5,6 +5,7 @@ function Product6() {
         <div className='detail'>
         <h1>Jackets Details</h1>
         <ul>
+        <img src="../assets/images/jacket.jpg" alt="jacket" style={{width:"250px", height:"220px"}}/>
           <li>Color: Black, gray, Orange, Red</li>
           <li>Size: S, M, L</li>
           <li>Material: Leather</li>

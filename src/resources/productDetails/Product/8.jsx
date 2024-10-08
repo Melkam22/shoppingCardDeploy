@@ -5,6 +5,7 @@ function Product8() {
         <div className='detail'>
         <h1>Caps Details</h1>
         <ul>
+        <img src="../assets/images/cap_black.jpg" alt="cap" style={{width:"250px", height:"220px"}}/>
           <li>Color: Black, Red, Green</li>
           <li>Size: M, L</li>
           <li>Material: Plastic/Polyester</li>
